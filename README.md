@@ -2,7 +2,6 @@
 
 A consulting-style Operational Analytics case study on supplier performance, route efficiency, product quality, and cost-to-serve optimisation.
 
----
 
 ## 1. Business Problem
 
@@ -12,7 +11,6 @@ A fashion & beauty brand sells skincare, haircare, and cosmetics across retail a
 
 **Stakeholders:** COO, Head of Procurement, Head of Logistics, Head of Quality, CFO.
 
----
 
 ## 2. Data
 
@@ -22,7 +20,6 @@ A fashion & beauty brand sells skincare, haircare, and cosmetics across retail a
 
 **Caveat:** the dataset is small (n = 100). Insights are directional; the framework and KPIs are designed to scale to a full operational dataset.
 
----
 
 ## 3. Methodology
 
@@ -33,7 +30,7 @@ Four stages, one per notebook:
 3. **Predictive modelling & segmentation** — Random Forest / XGBoost defect-risk model + K-Means supplier segmentation.
 4. **Recommendations & roadmap** — 5 actions with quantified impact, dashboard spec, phased plan.
 
----
+
 
 ## 4. KPI Framework
 
@@ -47,7 +44,7 @@ Four stages, one per notebook:
 | Inventory Cover | `stock_levels / avg_daily_sales` | Working-capital efficiency |
 | Cost per Route × Mode | `mean(shipping_cost)` | Logistics signal |
 
----
+
 
 ## 5. Headline Findings
 
@@ -56,7 +53,7 @@ Four stages, one per notebook:
 - **Some route × transport mode combinations** are both expensive and slow — mode-switch candidates.
 - **Defect risk is predictable** — the model flags High / Medium / Low risk SKUs with meaningful lift, enabling risk-based QA.
 
----
+
 
 ## 6. Recommendations
 
@@ -70,7 +67,7 @@ Four stages, one per notebook:
 
 **Aggregate target:** ~8–12% reduction in cost-to-serve and 20%+ reduction in flagged-SKU defect incidents within 6 months.
 
----
+
 
 ## 7. Project Structure
 
@@ -91,7 +88,6 @@ Supply Chain Analytics Project/
     └── dashboard_mockup.md
 ```
 
----
 
 ## 8. How to Run
 
@@ -103,13 +99,11 @@ jupyter lab notebooks/
 
 Run the notebooks in order (01 → 04).
 
----
 
 ## 9. Tech Stack
 
 Python (pandas, NumPy, matplotlib, seaborn, scikit-learn, XGBoost) · Jupyter · Power BI (dashboard spec only).
 
----
 
 ## 10. Limitations
 
