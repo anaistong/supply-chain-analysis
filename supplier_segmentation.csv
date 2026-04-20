@@ -1,0 +1,6 @@
+supplier,avg_cost,avg_defect,lead_std,pass_rate,skus,revenue,reliability,cluster,segment
+Supplier 1,45.25,1.8,8.55,0.68,27,157529.0,0.8894736842105262,2,Top performers
+Supplier 2,41.62,2.36,9.82,0.38,22,125467.42,0.3050484561640749,0,Underperformers
+Supplier 3,43.63,2.47,8.28,0.4,15,97795.98,0.5428822224594617,0,Underperformers
+Supplier 4,62.71,2.34,7.92,0.0,18,86468.96,0.4597701149425288,1,Average
+Supplier 5,44.77,2.67,9.03,0.3,18,110343.46,0.28565531475748207,0,Underperformers
